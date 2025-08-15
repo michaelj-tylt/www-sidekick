@@ -2,6 +2,7 @@ import { AirbnbSlideshow } from "@/shared/airbnb-slideshow";
 // import { DemoButton } from "@/shared/demo-button";
 // import Image from "next/image";
 import { useEffect, useState, RefObject, useRef } from "react";
+import theme from '../theme';
 
 interface HeroProps {
   primaryText: string;
@@ -67,7 +68,7 @@ export function Hero({ primaryText, secondaryText, tertiaryText, description }: 
               )}
             </p>
             {/* Subtle accent line */}
-            <div className="absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-400 to-purple-500 rounded-full opacity-60 hidden lg:block"></div>
+            <div className={`absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b ${theme.classes.gradient} rounded-full opacity-60 hidden lg:block`}></div>
           </div>
           
           {description && (
