@@ -11,7 +11,7 @@ import theme from '../theme';
 export default function HomePage() {
   return (
     <PageLayout 
-      homeUrl="/"
+      homeUrl={process.env.NEXT_PUBLIC_MAIN_URL}
       auroraColors={["#5227FF", "#1E40AF", "#0F172A"]}
       pixelColors="#5227FF,#3B82F6,#1E3A8A"
       theme={theme}
