@@ -159,7 +159,7 @@ export default function HomePage() {
                 {/* Subtitle with elegant styling */}
                 <div className="relative">
                   <p className="section-subheading">
-                    You're stuck doing the same browser tasks over and over. Click, type, wait, click again. There has to be a better way.
+                    You&apos;re stuck doing the same browser tasks over and over. Click, type, wait, click again. There has to be a better way.
                   </p>
                   {/* Subtle accent line */}
                   <div className={`absolute -left-4 top-0 bottom-0 w-1 bg-gradient-to-b ${theme.classes.gradient} rounded-full opacity-60 hidden lg:block`}></div>
